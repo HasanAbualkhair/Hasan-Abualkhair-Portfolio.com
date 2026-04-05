@@ -27,9 +27,10 @@
 }
 
 html{
-    min-height: 100vh;
+    max-height: 100%;
     background-image: url('Imgs/circle-black-red-layers-paper.jpg');
     overflow-x: none;
+    overscroll-behavior-x: none;
     scroll-behavior: smooth;
    
 }
