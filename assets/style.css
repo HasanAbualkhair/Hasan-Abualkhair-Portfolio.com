@@ -29,6 +29,7 @@
 html{
     height: 100%;
     background-color:var(--bg-color);
+    overflow: hidden;
     overscroll-behavior-x: none;
     scroll-behavior: smooth;
    
@@ -583,6 +584,7 @@ footer img{
     }
 
     nav ul{
+         position: fixed;
          margin-top: 0;
     }
 
@@ -630,6 +632,7 @@ footer img{
     }
 
     nav ul{
+         position: fixed;
          margin-top: 0;
     }
 
@@ -677,6 +680,15 @@ footer img{
 /* Start of Media Query responsive website for 360px screens */
 
 @media  screen and (max-width: 360px) {
+
+    nav{
+        position: fixed;
+    }
+
+    nav ul{
+        position: fixed;
+        margin-top: 0;
+    }
 
     nav h1{
         font-size: 1.2rem;
