@@ -28,7 +28,6 @@
 }
 
 html{
-    height: 100%;
     background-color:var(--bg-color-2);
     scroll-behavior: smooth;
    
@@ -39,7 +38,6 @@ body{
     background-image: url('Imgs/circle-black-red-layers-paper.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 ul{
