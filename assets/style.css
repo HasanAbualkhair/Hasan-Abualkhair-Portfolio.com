@@ -36,7 +36,7 @@ html{
 }
 
 body{
-    min-height: 100vh;
+    min-height: 100dvh;
     overflow: hidden;
     background-image: url('Imgs/circle-black-red-layers-paper.jpg');
     background-size: cover;
