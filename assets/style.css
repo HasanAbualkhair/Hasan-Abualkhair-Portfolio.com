@@ -484,10 +484,6 @@ footer img{
         height: 80px;
         width: 100%;
         padding: 1rem;
-        background-image: url("Imgs/Black-Red.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
     }
 
     nav ul{
@@ -497,8 +493,7 @@ footer img{
         background-position: center;
         background-repeat: no-repeat;
         flex-direction: column;
-        margin-top: 0;
-        top: 86px;
+        top: 65px;
         left: 10%;
         width: 80%;
         text-align: center;
@@ -523,9 +518,8 @@ footer img{
     }
 
     .hero{
-        margin-top: 80px;
         flex-direction: column;
-        text-align: center;
+        gap: 20px;
     }
 
     .hero img{
@@ -583,15 +577,11 @@ footer img{
     }
 
     nav ul{
-         margin-top: 0;
+         top: 71px;
     }
 
     nav h1{
         font-size: 1.4rem;
-    }
-
-    .hero{
-        margin-top: 80px;
     }
 
     .hero img{
@@ -630,15 +620,11 @@ footer img{
     }
 
     nav ul{
-         margin-top: 0;
+         top: 71px;
     }
 
     nav h1{
         font-size: 1.5rem;
-    }
-
-    .hero{
-        margin-top: 80px;
     }
 
     .hero img{
