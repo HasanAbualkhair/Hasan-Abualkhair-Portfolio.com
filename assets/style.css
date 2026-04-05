@@ -5,7 +5,7 @@
     --fontoptical-sizing: auto;
     --font-style: normal;
     --bg-color: #000000;
-    --bg-color-2: #413d3d;
+    --bg-color-2: #363333;
     --primary-color: #9f1010;
     --secondary-color: #e4b011;
     --primary-shadow: #9f1010;
@@ -27,8 +27,9 @@
     font-style: var(--font-style);
 }
 
-html{
+html, body{
     background-color:var(--bg-color-2);
+    overscroll-behavior: none;
     scroll-behavior: smooth;
    
 }
@@ -61,6 +62,8 @@ nav{
     top: 0;
     left: 0;
     z-index: 1000;
+    transform: translateZ(0);
+    backface-visibility: hidden;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
@@ -476,7 +479,7 @@ footer img{
 
 
     nav{
-        position: fixed;
+        position: sticky;
         top: 0;
         left: 0;
         height: 80px;
@@ -518,12 +521,6 @@ footer img{
 
     nav ul.display{
         transform: translateX(0);
-    }
-
-    .hero{
-        margin-top: 80px;
-        flex-direction: column;
-        text-align: center;
     }
 
     .hero img{
@@ -573,7 +570,7 @@ footer img{
 @media  screen and (max-width: 480px) {
 
     nav{
-        position: fixed;
+        position: sticky;
         top: 0;
         left: 0;
         width: 100%;
@@ -586,10 +583,6 @@ footer img{
 
     nav h1{
         font-size: 1.4rem;
-    }
-
-    .hero{
-        margin-top: 80px;
     }
 
     .hero img{
@@ -620,7 +613,7 @@ footer img{
 @media  screen and (max-width: 390px) {
 
     nav{
-        position: fixed;
+        position: sticky;
         top: 0;
         left: 0;
         width: 100%;
@@ -633,10 +626,6 @@ footer img{
 
     nav h1{
         font-size: 1.5rem;
-    }
-
-    .hero{
-        margin-top: 80px;
     }
 
     .hero img{
@@ -675,6 +664,12 @@ footer img{
 /* Start of Media Query responsive website for 360px screens */
 
 @media  screen and (max-width: 360px) {
+
+    nav{
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
 
     nav h1{
         font-size: 1.2rem;
