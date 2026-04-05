@@ -27,9 +27,9 @@
     font-style: var(--font-style);
 }
 
-html, body{
+html{
     background-color:var(--bg-color-2);
-    overscroll-behavior: none;
+    overflow: hidden;
     scroll-behavior: smooth;
    
 }
@@ -523,6 +523,10 @@ footer img{
         transform: translateX(0);
     }
 
+    .hero{
+        margin-top: 80px;
+    }
+
     .hero img{
         margin-top: 25px;
         height: 21.5rem;
@@ -585,6 +589,10 @@ footer img{
         font-size: 1.4rem;
     }
 
+    .hero{
+        margin-top: 80px;
+    }
+
     .hero img{
         margin-top: 25px;
         height: 17rem;
@@ -626,6 +634,10 @@ footer img{
 
     nav h1{
         font-size: 1.5rem;
+    }
+
+    .hero{
+        margin-top: 80px;
     }
 
     .hero img{
