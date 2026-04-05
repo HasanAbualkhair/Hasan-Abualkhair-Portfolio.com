@@ -5,6 +5,7 @@
     --fontoptical-sizing: auto;
     --font-style: normal;
     --bg-color: #000000;
+    --bg-color-2: #413d3d;
     --primary-color: #9f1010;
     --secondary-color: #e4b011;
     --primary-shadow: #9f1010;
@@ -28,8 +29,7 @@
 
 html{
     height: 100%;
-    background-color:var(--bg-color);
-    overflow: hidden;
+    background-color:var(--bg-color-2);
     overscroll-behavior-x: none;
     scroll-behavior: smooth;
    
@@ -37,6 +37,7 @@ html{
 
 body{
     min-height: 100vh;
+    overflow: hidden;
     background-image: url('Imgs/circle-black-red-layers-paper.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,7 +64,7 @@ nav{
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 1000;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
@@ -584,7 +585,6 @@ footer img{
     }
 
     nav ul{
-         position: fixed;
          margin-top: 0;
     }
 
@@ -632,7 +632,6 @@ footer img{
     }
 
     nav ul{
-         position: fixed;
          margin-top: 0;
     }
 
@@ -680,15 +679,6 @@ footer img{
 /* Start of Media Query responsive website for 360px screens */
 
 @media  screen and (max-width: 360px) {
-
-    nav{
-        position: fixed;
-    }
-
-    nav ul{
-        position: fixed;
-        margin-top: 0;
-    }
 
     nav h1{
         font-size: 1.2rem;
