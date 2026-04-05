@@ -5,7 +5,7 @@
     --fontoptical-sizing: auto;
     --font-style: normal;
     --bg-color: #000000;
-    --bg-color-2: #363333;
+    --bg-color-2: #413d3d;
     --primary-color: #9f1010;
     --secondary-color: #e4b011;
     --primary-shadow: #9f1010;
@@ -29,7 +29,6 @@
 
 html{
     background-color:var(--bg-color-2);
-    overflow: hidden;
     scroll-behavior: smooth;
    
 }
@@ -525,6 +524,8 @@ footer img{
 
     .hero{
         margin-top: 80px;
+        flex-direction: column;
+        text-align: center;
     }
 
     .hero img{
